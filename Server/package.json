@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Realtime Chatt App",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "npm i"
+  },
+  "keywords": [],
+  "author": "Khaldi Fatima",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.1"
+  }
+}
